@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Quicksand&family=Rubik&family=Rubik+Glitch&family=VT323&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+
+body {
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 60px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.con {
+  margin: 20px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.con h3,
+input,
+button {
+  margin: 10px;
+  padding: 10px;
+}
+
+.con p {
+  padding-top: 20px;
+  margin: 10px;
+}
+
+.con input {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 120px;
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  border: none;
+}
+
+button:hover {
+  font-size: 25.5px;
+}
+
+.con .scores {
+  display: flex;
+  justify-content: center;
+}
+
+.result h2 {
+  font-size: 60px;
+}
